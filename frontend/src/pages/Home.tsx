@@ -9,12 +9,12 @@ export function Home() {
   return (
     <>
       <Helmet>
-        <title>Алишер Бейсебай — технологии, ИИ, Smart City</title>
+        <title>Блогер, автор статей — технологии, ИИ, Smart City</title>
         <meta
           name="description"
-          content="Блог Алишера Бейсебая: технологии, искусственный интеллект, Smart City и будущее интернета."
+          content="Современный блог: технологии, искусственный интеллект, Smart City и будущее интернета."
         />
-        <meta property="og:title" content="Алишер Бейсебай" />
+        <meta property="og:title" content="" />
         <meta
           property="og:description"
           content="Технологии, ИИ и Smart City — личный блог."

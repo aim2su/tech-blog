@@ -3,13 +3,13 @@ import type { PlatformStat, AdFormat, CaseExample } from '../types';
 export const platforms: PlatformStat[] = [
   {
     platform: 'YouTube',
-    followers: '222K',
+    followers: '225K+',
     avgViews: '50K+',
     description: 'Видео о технологиях, обзоры, разборы',
   },
   {
     platform: 'Telegram',
-    followers: '54K',
+    followers: '45K+',
     avgViews: '5-6K',
     description: 'Мысли, ссылки, короткие заметки',
   },

@@ -9,15 +9,15 @@ export function Contact() {
   return (
     <>
       <Helmet>
-        <title>Контакты — {profile.name}</title>
+        <title>Связаться со мной</title>
         <meta
           name="description"
-          content="Связаться с Алишером Бейсебаем: email, Telegram, форма обратной связи."
+          content="Связаться с блогером: email, Telegram, форма обратной связи."
         />
         <meta property="og:title" content={`Контакты — ${profile.name}`} />
         <meta
           property="og:description"
-          content="Связаться с техноблогером Алишером Бейсебаем."
+          content="Связаться с блогером."
         />
       </Helmet>
 

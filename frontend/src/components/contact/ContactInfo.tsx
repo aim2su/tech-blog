@@ -31,7 +31,7 @@ export function ContactInfo() {
               rel="noopener noreferrer"
               className="mt-1 block text-sm text-muted hover:text-accent transition-colors"
             >
-              @alisherbeisebai
+              @telegram_username
             </a>
           </div>
         </div>

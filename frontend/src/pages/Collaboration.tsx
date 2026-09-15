@@ -11,10 +11,10 @@ export function Collaboration() {
   return (
     <>
       <Helmet>
-        <title>Сотрудничество — {profile.name}</title>
+        <title>Сотрудничество</title>
         <meta
           name="description"
-          content="Реклама и сотрудничество с техноблогером Алишером Бейсебаем. Статистика аудитории, форматы, примеры работ."
+          content="Реклама и сотрудничество с техноблогером. Статистика аудитории, форматы, примеры работ."
         />
         <meta
           property="og:title"
@@ -32,7 +32,7 @@ export function Collaboration() {
             Сотрудничество
           </h1>
           <p className="mt-3 text-muted text-lg">
-            Рассказываю о технологиях 222K подписчикам на YouTube и 54K в
+            Рассказываю о технологиях 225K+ подписчикам на YouTube и 45K+ в
             Telegram. Открыт к рекламным интеграциям и партнёрствам.
           </p>
         </header>

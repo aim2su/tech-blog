@@ -10,9 +10,9 @@ export function About() {
   return (
     <>
       <Helmet>
-        <title>Обо мне — {profile.name}</title>
+        <title>Обо мне</title>
         <meta name="description" content={profile.bio} />
-        <meta property="og:title" content={`Обо мне — ${profile.name}`} />
+        <meta property="og:title" content={`Обо мне ${profile.name}`} />
         <meta property="og:description" content={profile.bio} />
       </Helmet>
 
@@ -38,10 +38,27 @@ export function About() {
             </div>
           </div>
 
-          <div className="mt-8 space-y-4 text-text leading-relaxed">
+          {/* <div className="mt-8 space-y-4 text-text leading-relaxed">
             {profile.longBio.split('\n').map((paragraph, i) => (
               <p key={i}>{paragraph}</p>
             ))}
+          </div> */}
+                    <div className="mt-8 space-y-4 text-text leading-relaxed">
+            <p>
+              Всем привет, я блогер и автор статей в интернете! Я пишу о технологиях, которые меняют повседневную жизнь.
+            </p>
+            <p>
+              Мой фокус — искусственный интеллект, умные города и будущее
+              интернета.
+            </p>
+            <p>
+              Я верю, что сложные вещи можно объяснять простыми словами — без
+              снобизма и лишнего жаргона.
+            </p>
+            <p>
+              Здесь я собираю свои статьи, видео и мысли, чтобы у всего был
+              один дом, а не десять разных платформ.
+            </p>
           </div>
         </header>
 

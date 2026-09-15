@@ -5,7 +5,7 @@ export function NotFound() {
   return (
     <>
       <Helmet>
-        <title>Страница не найдена — Алишер Бейсебай</title>
+        <title>Страница не найдена</title>
       </Helmet>
       <div className="container-content py-24 text-center">
         <h1 className="text-6xl text-accent font-bold">404</h1>

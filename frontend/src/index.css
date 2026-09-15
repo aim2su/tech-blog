@@ -2,6 +2,193 @@
 @plugin "@tailwindcss/typography";
 
 @theme {
+  --color-bg: #090814;
+  --color-surface: #121024;
+  --color-border: #24203d;
+  --color-accent: #818cf8;
+  --color-accent-hover: #6366f1;
+  --color-text: #e9e7f5;
+  --color-muted: #9b98ad;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --container-content: 1200px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-text font-sans antialiased;
+
+    background-color: #090814;
+
+    background-image:
+      radial-gradient(
+        ellipse 90% 55% at 50% 0%,
+        rgba(129, 140, 248, 0.20) 0%,
+        transparent 65%
+      ),
+      radial-gradient(
+        ellipse 65% 50% at 100% 100%,
+        rgba(168, 85, 247, 0.13) 0%,
+        transparent 65%
+      ),
+      linear-gradient(
+        135deg,
+        #090814 0%,
+        #100e20 50%,
+        #090814 100%
+      );
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-semibold tracking-tight;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  ::selection {
+    @apply bg-accent/30;
+  }
+}
+
+@layer components {
+  .container-content {
+    @apply max-w-content mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+№2
+
+
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-bg: #061016;
+  --color-surface: #0c1a23;
+  --color-border: #19303b;
+  --color-accent: #22d3ee;
+  --color-accent-hover: #06b6d4;
+  --color-text: #e6f4f7;
+  --color-muted: #91a8b0;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --container-content: 1200px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply text-text font-sans antialiased;
+
+    background-color: #061016;
+
+    background-image:
+      radial-gradient(
+        ellipse 100% 60% at 50% 0%,
+        rgba(34, 211, 238, 0.20) 0%,
+        transparent 65%
+      ),
+      radial-gradient(
+        ellipse 70% 60% at 0% 100%,
+        rgba(14, 165, 233, 0.12) 0%,
+        transparent 65%
+      ),
+      linear-gradient(
+        135deg,
+        #061016 0%,
+        #0a1820 50%,
+        #061016 100%
+      );
+
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-semibold tracking-tight;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  ::selection {
+    @apply bg-accent/30;
+  }
+}
+
+@layer components {
+  .container-content {
+    @apply max-w-content mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
+
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+/* №1 */
+
+/* @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
   --color-bg: #0a0e1a;
   --color-surface: #121829;
   --color-border: #1f2937;
@@ -56,4 +243,4 @@
   .container-content {
     @apply max-w-content mx-auto px-4 sm:px-6 lg:px-8;
   }
-}
+} */

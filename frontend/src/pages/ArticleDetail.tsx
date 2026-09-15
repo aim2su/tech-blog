@@ -24,7 +24,7 @@ export function ArticleDetail() {
   return (
     <>
       <Helmet>
-        <title>{article.title} — Алишер Бейсебай</title>
+        <title>{article.title} — Сатьи автора</title>
         <meta name="description" content={article.excerpt} />
         <meta property="og:title" content={article.title} />
         <meta property="og:description" content={article.excerpt} />

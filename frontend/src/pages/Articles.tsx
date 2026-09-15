@@ -21,7 +21,7 @@ export function Articles() {
   return (
     <>
       <Helmet>
-        <title>Статьи — Алишер Бейсебай</title>
+        <title>Статьи автора</title>
         <meta
           name="description"
           content="Статьи о технологиях, ИИ и Smart City."
