@@ -1,0 +1,59 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@theme {
+  --color-bg: #0a0e1a;
+  --color-surface: #121829;
+  --color-border: #1f2937;
+  --color-accent: #22d3ee;
+  --color-accent-hover: #06b6d4;
+  --color-text: #e5e7eb;
+  --color-muted: #9ca3af;
+
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+
+  --container-content: 1200px;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+    body {
+    @apply text-text font-sans antialiased;
+    background-color: #0a0e1a;
+    background-image:
+      radial-gradient(
+        ellipse 100% 60% at 50% 0%,
+        rgba(34, 211, 238, 0.25) 0%,
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse 80% 50% at 100% 100%,
+        rgba(99, 102, 241, 0.18) 0%,
+        transparent 60%
+      ),
+      linear-gradient(135deg, #0a0e1a 0%, #0d1424 50%, #0a0e1a 100%);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+  }
+  h1, h2, h3, h4 {
+    @apply font-semibold tracking-tight;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  ::selection {
+    @apply bg-accent/30;
+  }
+}
+
+@layer components {
+  .container-content {
+    @apply max-w-content mx-auto px-4 sm:px-6 lg:px-8;
+  }
+}
