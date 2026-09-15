@@ -1,5 +1,5 @@
 import { Helmet } from 'react-helmet-async';
-import { platforms, adFormats, cases } from '../data/Collaboration';
+import { platforms, adFormats, cases } from '../data/collaboration';
 import { profile } from '../data/profile';
 import { PlatformStats } from '../components/collaboration/PlatformStats';
 import { AdFormats } from '../components/collaboration/AdFormats';
